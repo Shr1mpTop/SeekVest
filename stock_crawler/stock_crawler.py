@@ -68,4 +68,4 @@ for i in cmd.keys():
         else:
             break
     df = pd.DataFrame(stocks)
-    df.to_excel("股票_"+i+".xlsx", index=False)
+    df.to_excel("./data/"+"股票_"+i+".xlsx", index=False)
